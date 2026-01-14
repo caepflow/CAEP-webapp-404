@@ -18,3 +18,6 @@ pageTemplate:
 children:
   - id: 2ee1085c-45d9-481c-98c8-e8b87a39cebc
     type: page
+transitions:
+  - target: 85f8e779-511f-e5cc-2119-14a7ba74e280
+    name: edit
