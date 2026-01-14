@@ -9,5 +9,12 @@ annotations:
         y: 175
 name: browse
 description: Description for new-state
-template: quick-search
-datasource: users
+pageTemplate:
+  id: 2ee1085c-45d9-481c-98c8-e8b87a39cebc
+  name: Users
+  description: Users
+  template: quick-search
+  datasource: users
+children:
+  - id: 2ee1085c-45d9-481c-98c8-e8b87a39cebc
+    type: page
